@@ -1,0 +1,7 @@
+streamlit
+pandas
+openpyxl
+yt-dlp
+spotipy
+playwright
+tqdm
