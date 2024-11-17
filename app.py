@@ -11,8 +11,17 @@ from stqdm import stqdm
 
 
 
-# Set page configuration
-st.set_page_config(page_title="Playlist Tracker", page_icon="🎵", layout="wide")
+st.set_page_config(
+    page_title="Mirchi Playlist Tracker V1",  # Title for the browser tab
+    page_icon="🎵",  # Icon for the browser tab
+    layout="wide",
+    initial_sidebar_state="expanded",
+    menu_items={
+        'Get Help': 'siddhant.sharma@timesgroup.com',  # Link for "Get Help"
+        'Report a bug': 'siddhant.sharma@timesgroup.com',  # Link for "Report a Bug"
+        'About': 'Mirchi Playlist Tracker V1 created by RJ Siddhant'  # Text for "About"
+    }
+)
 
 
 # Custom CSS for Material Design
