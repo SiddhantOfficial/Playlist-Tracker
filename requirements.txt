@@ -4,8 +4,4 @@ openpyxl
 yt-dlp
 spotipy
 playwright
-<<<<<<< HEAD
-stqdm
-=======
 tqdm
->>>>>>> 2556f70 (Initial commit with Streamlit config)
