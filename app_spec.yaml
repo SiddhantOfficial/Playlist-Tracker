@@ -1,0 +1,15 @@
+name: streamlit-app
+services:
+  - name: web
+    environment_slug: python
+    source:
+      bundle_type: tar
+      url: YOUR_TARBALL_URL
+    build_command: "pip install -r requirements.txt"
+    run_command: "streamlit run app.py --server.port $PORT --server.enableCORS false"
+    http_port: 8501
+    routes:
+      - path: /
+    envs:
+      - key: STREAMLIT_SERVER_ENABLE_WEBSOCKET_COMPRESSION
+        value: "true"
