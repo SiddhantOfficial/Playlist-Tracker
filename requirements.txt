@@ -1,7 +1,9 @@
 streamlit
 pandas
-openpyxl
-yt-dlp
+requests
 spotipy
-playwright
-tqdm
+beautifulsoup4
+stqdm
+python-dotenv
+selenium
+webdriver-manager
